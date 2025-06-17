@@ -18,7 +18,7 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.multiply(3, 4), 12)
         self.assertEqual(self.calc.multiply(0, 5), 0)
 
-    def test_divide(self):  # <-- Already correct
+    def test_division(self):  # <-- Already correct
         self.assertEqual(self.calc.divide(10, 2), 5)
         self.assertEqual(self.calc.divide(0, 1), 0)
         self.assertIsNone(self.calc.divide(5, 0))
